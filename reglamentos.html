@@ -74,109 +74,10 @@
                 </p>
             </div>
 
-            <div class="card-grid">
-                <!-- Document 1 -->
-                <div class="card">
-                    <div class="card-content" style="text-align: center;">
-                        <div
-                            style="background: var(--gradient-primary); width: 80px; height: 80px; border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-6);">
-                            <i class="fas fa-file-alt" style="font-size: 2.5rem; color: white;"></i>
-                        </div>
-                        <h3 class="card-title">Proyecto Educativo Institucional (PEI)</h3>
-                        <p class="card-text">
-                            Documento que define nuestra identidad, misión, visión y objetivos estratégicos
-                            institucionales.
-                        </p>
-                        <a href="#" class="btn btn-primary" style="margin-top: var(--space-4); display: inline-block;">
-                            <i class="fas fa-download"></i> Descargar PDF
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Document 2 -->
-                <div class="card">
-                    <div class="card-content" style="text-align: center;">
-                        <div
-                            style="background: var(--gradient-secondary); width: 80px; height: 80px; border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-6);">
-                            <i class="fas fa-shield-alt"
-                                style="font-size: 2.5rem; color: var(--color-primary-dark);"></i>
-                        </div>
-                        <h3 class="card-title">Plan Integral de Seguridad Escolar (PISE)</h3>
-                        <p class="card-text">
-                            Protocolos y procedimientos para garantizar la seguridad de toda la comunidad educativa.
-                        </p>
-                        <a href="#" class="btn btn-primary" style="margin-top: var(--space-4); display: inline-block;">
-                            <i class="fas fa-download"></i> Descargar PDF
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Document 3 -->
-                <div class="card">
-                    <div class="card-content" style="text-align: center;">
-                        <div
-                            style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); width: 80px; height: 80px; border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-6);">
-                            <i class="fas fa-book" style="font-size: 2.5rem; color: white;"></i>
-                        </div>
-                        <h3 class="card-title">Reglamento Interno</h3>
-                        <p class="card-text">
-                            Normas de convivencia, derechos y deberes de todos los miembros de nuestra comunidad.
-                        </p>
-                        <a href="#" class="btn btn-primary" style="margin-top: var(--space-4); display: inline-block;">
-                            <i class="fas fa-download"></i> Descargar PDF
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Document 4 -->
-                <div class="card">
-                    <div class="card-content" style="text-align: center;">
-                        <div
-                            style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); width: 80px; height: 80px; border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-6);">
-                            <i class="fas fa-users" style="font-size: 2.5rem; color: white;"></i>
-                        </div>
-                        <h3 class="card-title">Reglamento de Convivencia Escolar</h3>
-                        <p class="card-text">
-                            Normas y protocolos para promover una sana convivencia en nuestra comunidad educativa.
-                        </p>
-                        <a href="#" class="btn btn-primary" style="margin-top: var(--space-4); display: inline-block;">
-                            <i class="fas fa-download"></i> Descargar PDF
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Document 5 -->
-                <div class="card">
-                    <div class="card-content" style="text-align: center;">
-                        <div
-                            style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); width: 80px; height: 80px; border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-6);">
-                            <i class="fas fa-graduation-cap" style="font-size: 2.5rem; color: white;"></i>
-                        </div>
-                        <h3 class="card-title">Reglamento de Evaluación</h3>
-                        <p class="card-text">
-                            Normativa sobre evaluación, calificación y promoción de estudiantes.
-                        </p>
-                        <a href="#" class="btn btn-primary" style="margin-top: var(--space-4); display: inline-block;">
-                            <i class="fas fa-download"></i> Descargar PDF
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Document 6 -->
-                <div class="card">
-                    <div class="card-content" style="text-align: center;">
-                        <div
-                            style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); width: 80px; height: 80px; border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-6);">
-                            <i class="fas fa-clipboard-list" style="font-size: 2.5rem; color: white;"></i>
-                        </div>
-                        <h3 class="card-title">Protocolos de Actuación</h3>
-                        <p class="card-text">
-                            Protocolos ante situaciones de maltrato, acoso escolar y otras situaciones especiales.
-                        </p>
-                        <a href="#" class="btn btn-primary" style="margin-top: var(--space-4); display: inline-block;">
-                            <i class="fas fa-download"></i> Descargar PDF
-                        </a>
-                    </div>
+            <div class="card-grid" id="reglamentos-container">
+                <div style="grid-column: 1 / -1; text-align: center; padding: 2rem;">
+                    <i class="fas fa-spinner fa-spin" style="font-size: 2rem; color: var(--color-primary);"></i>
+                    <p style="margin-top: 1rem; color: var(--color-gray-600);">Cargando documentos...</p>
                 </div>
             </div>
         </div>
@@ -241,6 +142,57 @@
 
     <!-- JavaScript -->
     <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('api/get_documentos.php?tipo=reglamento')
+                .then(response => response.json())
+                .then(data => {
+                    const container = document.getElementById('reglamentos-container');
+                    
+                    if (!data.success || data.data.length === 0) {
+                        container.innerHTML = `
+                            <div style="grid-column: 1 / -1; text-align: center; padding: 2rem; background: white; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+                                <i class="fas fa-file-pdf" style="font-size: 3rem; color: var(--color-gray-400); margin-bottom: 1rem;"></i>
+                                <h3 style="color: var(--color-gray-700);">No hay documentos disponibles</h3>
+                            </div>
+                        `;
+                        return;
+                    }
+
+                    container.innerHTML = '';
+
+                    data.data.forEach(item => {
+                        let iconColor = 'white';
+                        if (item.color_gradient === 'var(--gradient-secondary)') iconColor = 'var(--color-primary-dark)';
+
+                        const cardHTML = `
+                            <div class="card">
+                                <div class="card-content" style="text-align: center;">
+                                    <div style="background: ${item.color_gradient}; width: 80px; height: 80px; border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-6);">
+                                        <i class="${item.icono}" style="font-size: 2.5rem; color: ${iconColor};"></i>
+                                    </div>
+                                    <h3 class="card-title">${item.titulo}</h3>
+                                    <p class="card-text">${item.descripcion}</p>
+                                    <a href="${item.enlace}" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="margin-top: var(--space-4); display: inline-block;">
+                                        <i class="fas fa-download"></i> Ver / Descargar
+                                    </a>
+                                </div>
+                            </div>
+                        `;
+                        container.insertAdjacentHTML('beforeend', cardHTML);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching documentos:', error);
+                    document.getElementById('reglamentos-container').innerHTML = `
+                        <div style="grid-column: 1 / -1; text-align: center; padding: 2rem; background: #fff5f5; border-radius: 12px; border: 1px solid #fc8181; color: #c53030;">
+                            <i class="fas fa-exclamation-triangle" style="font-size: 2rem; margin-bottom: 1rem;"></i>
+                            <p>Error cargando los documentos. Por favor, intenta más tarde.</p>
+                        </div>
+                    `;
+                });
+        });
+    </script>
 </body>
 
 </html>
