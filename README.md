@@ -69,35 +69,18 @@ colegio-diego-portales/
 - Optimización de rendimiento
 - Accesibilidad mejorada
 
-## 📝 Próximos Pasos
+## 📝 Próximos Pasos (Implementación)
 
-Para implementar el sitio en producción:
+Para implementar el sitio dinámico en tu servidor (cPanel) sigue estos pasos:
 
-1. **Actualizar Enlaces**: Reemplazar los enlaces "#" con URLs reales de Google Drive para documentos y guías
-2. **Agregar Fotos**: Incluir fotos reales del personal docente y asistentes
-3. **Configurar Hosting**: Subir a GitHub Pages, Netlify o servidor web
-4. **Dominio**: Configurar dominio personalizado si es necesario
-5. **Analytics**: Agregar Google Analytics para seguimiento
-
-## 🌟 Mejoras Implementadas
-
-- ✅ Diseño premium y moderno
-- ✅ Animaciones y micro-interacciones
-- ✅ Paleta de colores institucional
-- ✅ Tipografía profesional
-- ✅ Responsive design completo
-- ✅ Navegación mejorada
-- ✅ SEO optimizado
-- ✅ Accesibilidad mejorada
-
-## 📞 Contacto
-
-Colegio Diego Portales Machalí
-- **Ubicación**: Machalí, Región de O'Higgins
-- **Email**: contacto@colegiosdiegoportales.cl
-- **Facebook**: /colegiosdiegoportales
-- **Instagram**: @colegiosdiegoportales
-
----
-
-**Desarrollado con ❤️ para la comunidad educativa del Colegio Diego Portales**
+1. **Base de Datos**: 
+   - Sube el archivo `database.sql` a tu servidor MySQL mediante phpMyAdmin.
+   - El script creará automáticamente las tablas necesarias y un usuario administrador inicial:
+     - **Usuario**: `admin`
+     - **Contraseña**: `admin123`
+2. **Configuración de Conexión**:
+   - Edita el archivo `admin/includes/db.php` y reemplaza `$dbname`, `$username`, y `$password` con los credenciales reales de tu base de datos en cPanel.
+3. **Subir Archivos**: 
+   - Sube todos los archivos usando el Administrador de Archivos de cPanel a la carpeta `public_html`. Asegúrate de que tu servidor soporte PHP 8.x.
+4. **Acceso al Panel de Control**:
+   - Entra a `tudominio.com/admin` e inicia sesión con las credenciales por defecto. Te recomendamos cambiar la contraseña en la base de datos más adelante.
